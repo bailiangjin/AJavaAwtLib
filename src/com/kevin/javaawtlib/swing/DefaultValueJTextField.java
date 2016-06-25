@@ -1,4 +1,4 @@
-package com.kevin.javaawtlib.awt;
+package com.kevin.javaawtlib.swing;
 
 import com.kevin.javabaselib.utils.StringUtils;
 

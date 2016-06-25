@@ -1,4 +1,4 @@
-package com.kevin.javaawtlib.awt;
+package com.kevin.javaawtlib.swing;
 /**
  * @author 白良锦 bailiangjin@gmail.com
  * @version
