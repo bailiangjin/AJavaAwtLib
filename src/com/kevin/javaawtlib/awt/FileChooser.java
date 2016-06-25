@@ -42,16 +42,19 @@ public class FileChooser extends JFrame implements ActionListener {
 	public void actionPerformed(ActionEvent e) {
 		JFileChooser jfc = new JFileChooser();
 		jfc.setFileSelectionMode(JFileChooser.FILES_AND_DIRECTORIES);
-		jfc.showDialog(new JLabel(), this.btnName);
-		File file = jfc.getSelectedFile();
-		if (file.isDirectory()) {
-			System.out.println("文件夹:" + file.getAbsolutePath());
-			filePathCallback.onFileSelected(file.getAbsolutePath());
-		} else if (file.isFile()) {
-			System.out.println("文件:" + file.getAbsolutePath());
-			filePathCallback.onFileSelected(file.getAbsolutePath());
+		int returnValue = jfc.showDialog(new JLabel(), this.btnName);
+		if (returnValue == JFileChooser.APPROVE_OPTION) {
+			File file = jfc.getSelectedFile();
+			if (file.isDirectory()) {
+				System.out.println("文件夹:" + file.getAbsolutePath());
+				filePathCallback.onFileSelected(file.getAbsolutePath());
+			} else if (file.isFile()) {
+				System.out.println("文件:" + file.getAbsolutePath());
+				filePathCallback.onFileSelected(file.getAbsolutePath());
+			}
+			System.out.println(jfc.getSelectedFile().getName());
+
 		}
-		System.out.println(jfc.getSelectedFile().getName());
 
 	}
 
