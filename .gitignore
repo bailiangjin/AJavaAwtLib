@@ -5,6 +5,7 @@
 
 #idea
 .idea/misc.xml
+.idea/artifacts
 #*.iml
 
 #Java Temporary Files
