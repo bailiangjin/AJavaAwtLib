@@ -1,6 +1,7 @@
-package com.kevin.javaawtlib.swing;
+package com.bailiangjin.javaawtlib.swing;
 
-import com.kevin.javabaselib.utils.StringUtils;
+
+import com.bailiangjin.javabaselib.utils.StringUtils;
 
 import javax.swing.*;
 

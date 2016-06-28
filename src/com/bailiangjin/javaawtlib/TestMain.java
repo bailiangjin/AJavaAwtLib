@@ -1,7 +1,7 @@
-package com.kevin.javaawtlib;
+package com.bailiangjin.javaawtlib;
 
-import com.kevin.javaawtlib.swing.FileChooser;
-import com.kevin.javaawtlib.callback.FilePathCallback;
+import com.bailiangjin.javaawtlib.callback.FilePathCallback;
+import com.bailiangjin.javaawtlib.swing.FileChooser;
 
 public class TestMain {
 	

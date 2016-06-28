@@ -1,4 +1,4 @@
-package com.kevin.javaawtlib.swing;
+package com.bailiangjin.javaawtlib.swing;
 /**
  * @author 白良锦 bailiangjin@gmail.com
  *
@@ -15,7 +15,7 @@ import javax.swing.JFileChooser;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 
-import com.kevin.javaawtlib.callback.FilePathCallback;
+import com.bailiangjin.javaawtlib.callback.FilePathCallback;
 
 /**
  *  文件选择窗口控件
@@ -24,7 +24,7 @@ import com.kevin.javaawtlib.callback.FilePathCallback;
  */
 public class FileChooser extends JFrame implements ActionListener {
 	private JButton open = null;
-	private FilePathCallback  filePathCallback;
+	private FilePathCallback filePathCallback;
 	private String btnName="";
 
 	public FileChooser(String btnName, FilePathCallback filePathCallback) {

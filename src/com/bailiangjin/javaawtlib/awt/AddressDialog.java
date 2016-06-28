@@ -1,9 +1,6 @@
-package com.kevin.javaawtlib.awt;
-import java.awt.Frame;
-import java.awt.GridLayout;
-import javax.swing.JDialog;
-import javax.swing.JLabel;
-import javax.swing.JTextField;
+package com.bailiangjin.javaawtlib.awt;
+import javax.swing.*;
+import java.awt.*;
 
 public class AddressDialog extends JDialog {
     JLabel label1 = new JLabel("Address");
